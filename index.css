@@ -1,0 +1,98 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    font-family: 'Work Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+    background-color: #F8F4EC;
+    color: #534f4f;
+    overflow-x: hidden;
+  }
+  
+  h1, h2, h3, h4, .font-serif-luxury {
+    font-family: 'Fraunces', Georgia, serif;
+  }
+}
+
+/* Gradients signature */
+.cacao-gradient {
+  background: linear-gradient(135deg, #1C0C07 0%, #2B1710 40%, #4A2C1D 100%);
+}
+
+.gold-gradient {
+  background: linear-gradient(135deg, #D4AF37 0%, #F3E5AB 50%, #AA7C11 100%);
+}
+
+.gold-btn-gradient {
+  background: linear-gradient(135deg, #E6C275 0%, #C89B3C 50%, #9E7422 100%);
+}
+
+.dark-btn-gradient {
+  background: linear-gradient(135deg, #7b5252 0%, #7c584b 50%, #60463c 100%);
+}
+
+/* Badges & Accents */
+.gold-badge {
+  background: radial-gradient(circle, #D4AF37 0%, #9E7422 100%);
+  color: #FFFFFF;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.4);
+  text-shadow: 0 1px 2px rgba(0,0,0,0.5);
+}
+
+/* Glassmorphism & Panneaux */
+.glass-panel {
+  background: rgba(255, 255, 255, 0.85);
+  backdrop-filter: blur(12px);
+  border: 1px solid rgba(200, 155, 60, 0.3);
+}
+
+.glass-panel-dark {
+  background: rgba(183, 146, 133, 0.85);
+  backdrop-filter: blur(12px);
+  border: 1px solid rgba(200, 155, 60, 0.4);
+}
+
+/* Cartes produits */
+.product-card-hover {
+  transition: transform 0.3s cubic-bezier(0.16, 1, 0.3, 1), box-shadow 0.3s cubic-bezier(0.16, 1, 0.3, 1), border-color 0.3s ease;
+}
+
+.product-card-hover:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 20px 35px -10px rgba(43, 23, 16, 0.2);
+  border-color: rgba(200, 155, 60, 0.6);
+}
+
+/* Boutons décorés avec lisibilité maximale */
+.btn-decorated {
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 700;
+  letter-spacing: 0.025em;
+  transition: all 0.25s cubic-bezier(0.4, 0, 0.2, 1);
+  box-shadow: 0 4px 14px rgba(43, 23, 16, 0.15);
+  border: 1px solid transparent;
+}
+
+.btn-decorated:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 20px rgba(43, 23, 16, 0.25);
+}
+
+.btn-decorated:active {
+  transform: translateY(0);
+  box-shadow: 0 2px 8px rgba(43, 23, 16, 0.2);
+}
+
+/* Masquer la barre de défilement tout en gardant le scroll */
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+.no-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+

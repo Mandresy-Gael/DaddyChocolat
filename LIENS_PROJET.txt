@@ -1,0 +1,13 @@
+====================================================================
+ESSGAM - L2 GL : EXAMEN PRATIQUE E-COMMERCE (AOÛT 2026)
+Sujet N°1 : Gestion des Commandes et Produits (DaddyChocolat)
+====================================================================
+
+- Lien Dépôt GitHub : https://github.com/votre-compte/DaddyChocolat-ChocoFinal.git
+- Lien Déploiement Frontend : http://localhost:3000 (Vite React)
+- Lien API Backend : http://localhost:5000/api/produits (Node.js / Express)
+
+Fichiers clés du projet :
+- Backend : Choco_final/backend/db.js & Choco_final/backend/server.js
+- Frontend : Choco_final/frontend/src/App.jsx & Choco_final/frontend/src/components/
+- Images Produits : Choco_final/frontend/public/images/
