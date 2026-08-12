@@ -1,6 +1,6 @@
 # DaddyChocolat — Application E-Commerce (Projet Final L2)
 
-##📌 Présentation du Projet
+## Présentation du Projet
 Application web e-commerce réalisée dans le cadre de l'examen **ESSGAM L2 GL** (Sujet N°1 : *Gestion des Commandes et Produits*).  
 **DaddyChocolat** est un site vitrine et boutique en ligne dédié au chocolat d'exception pure origine de la vallée du Sambirano (Madagascar).
 
@@ -35,7 +35,7 @@ npm run dev
 
 ---
 
-## ⚡ Fonctionnalités Développées (Niveau L2)
+##  Fonctionnalités Développées (Niveau L2)
 
 1. **Espace Client (Boutique)** :
    - Consultation du catalogue des chocolats avec affichage des images et du pourcentage de cacao signature.
